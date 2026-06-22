@@ -122,4 +122,34 @@ A: 检查 model_ratios 表，调整 ModelRatio 和 CompletionRatio。
 
 ---
 
+## 🚀 一个 Key 调 50+ 模型——直接用现成的
+
+不想自己搭建？直接用我们的平台：
+
+> **🌐 [api-aiapi.cn](https://api-aiapi.cn) — 一个 API Key 调用 50+ 模型**
+>
+> DeepSeek / 通义千问 / 智谱GLM / 豆包 / GPT / Claude / Gemini 全支持
+> 注册即送额度，无需部署，即开即用
+
+### 快速测试
+
+```bash
+curl https://api-aiapi.cn/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer 你的Key" \
+  -d '{"model": "qwen-turbo", "messages": [{"role": "user", "content": "你好！"}]}'
+```
+
+---
+
+## 📝 更多技术文章（CSDN）
+
+- [AI API聚合平台从零到营收：一个普通开发者的副业真实记录](https://blog.csdn.net/2601_96194608/article/details/161490478)
+- [对接6家AI API平台的10个踩坑实录：从DeepSeek到GPT](https://blog.csdn.net/2601_96194608/article/details/161572251)
+- [从零部署到100用户：一个AI API中转站的运维实录](https://blog.csdn.net/2601_96194608/article/details/161828523)
+- [API Key安全防护全攻略：从被入侵到彻底加固](https://blog.csdn.net/2601_96194608/article/details/161632604)
+- [同样任务，价格差117倍？国产AI API实测速度与价格全对比](https://blog.csdn.net/2601_96194608/article/details/161894591)
+
+---
+
 *欢迎 Star、Fork、提 Issue。如果你需要一个现成的平台，也可以看看 [api-aiapi.cn](https://api-aiapi.cn)*
