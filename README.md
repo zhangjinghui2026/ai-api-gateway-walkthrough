@@ -117,4 +117,35 @@ Channel type reference, model mappings, and provider-specific configs: [docs/cha
 
 ---
 
+## 🚀 One Key, 50+ Models — Try the Live Platform
+
+If you don't want to build your own gateway, just use ours:
+
+> **🌐 [api-aiapi.cn](https://api-aiapi.cn) — One API Key to call 50+ models**
+>
+> DeepSeek / Qwen / GLM / Doubao / GPT / Claude / Gemini — all with one Key.
+> Free trial available, no deployment needed.
+
+### Quick Test
+
+```bash
+curl https://api-aiapi.cn/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_KEY" \
+  -d '{"model": "qwen-turbo", "messages": [{"role": "user", "content": "Hello!"}]}'
+```
+
+---
+
+## 📝 Read More on CSDN
+
+Technical deep dives and real-world ops notes:
+
+- [AI API聚合平台从零到营收](https://blog.csdn.net/2601_96194608/article/details/161490478) — 一个Key调50+模型
+- [国产AI API省钱指南](https://blog.csdn.net/2601_96194608/article/details/161572251) — 价格差60倍怎么选？
+- [从零部署到100用户运维实录](https://blog.csdn.net/2601_96194608/article/details/161828523) — 真实踩坑记录
+- [API Key安全防护全攻略](https://blog.csdn.net/2601_96194608/article/details/161632604) — 被入侵后的复盘
+
+---
+
 *Star, fork, and PRs welcome. If you want a ready-to-use platform, check out [api-aiapi.cn](https://api-aiapi.cn)*
